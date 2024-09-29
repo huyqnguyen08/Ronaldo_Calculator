@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Label layoutX="11.0" layoutY="24.0" prefHeight="126.0" prefWidth="434.0" text="Con cac later (Calculator)">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect></Label>
+      <Button layoutX="180.0" layoutY="395.0" mnemonicParsing="false" onAction="#toScene1" text="Press Enter" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Lucida Sans Demibold Roman" size="39.0" />
+         </font></Button>
+      <ImageView fitHeight="244.0" fitWidth="274.0" layoutX="11.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/cele-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+.button{
+ -fx-background-color: YELLOW;
+ -fx-font-size: 20;
+ -fx-font-family: "Lucida Console";
+ -fx-text-fill: "black";
+ -fx-alignment: center;
+}
+.root{
+ -fx-background-color: RED;
+}
+
+.label{
+ -fx-font-size: 20;
+ -fx-font-family: "Lucida Console";
+ -fx-text-fill: "black";
+ -fx-alignment: center;
+}/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
